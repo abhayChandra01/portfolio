@@ -1,0 +1,190 @@
+//Home Page
+.home-head {
+    position: relative;
+    float: left;
+    padding-left: 50px;
+    font-size: 20px;
+}
+
+.home-head::before {
+    content: '';
+    margin-left: 50px;
+    position: absolute;
+    bottom: 0; left: 0;
+    width: 60px;
+    height: 3px;
+    background-color: green;
+  }
+
+// About Page
+
+.about-overlay {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+//   background-color: rgba(43, 51, 59, 0.8);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.about-inner {
+  max-width: 50rem;
+  text-align: center;
+  color: black;
+  padding: 0 2rem;
+}
+
+.about-head {
+    position: relative;
+    float: left;
+    padding-left: 50px;
+    font-size: 20px;
+    padding-bottom: 5px;
+    padding-top: 10px;
+}
+
+.about-head::before {
+  content: '';
+  margin-left: 50px;
+  position: absolute;
+  bottom: 0; left: 0;
+  width: 60px;
+  height: 3px;
+  background-color: green;
+  
+}
+
+
+
+.about-info p{
+  text-align: left;
+}
+
+.about-content {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    float: left;
+    justify-content: center;
+    align-items: center;
+    padding-left: 50px;
+    padding-right: 50px;
+    font-size: 15px;
+}
+
+.about-content ol {
+    font-size: 14px;
+    padding-left: 50px;
+    padding-top: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-tech {
+    font-size: 15px;
+    padding-top: 25px;
+}
+
+.about-bool{
+  padding-top: 25px;
+  justify-content: center;
+  align-items: center;
+}
+.card{
+  width: 50%;
+  height: 50%;
+}
+.about-p {
+  padding-top: 50px;
+  text-align: left;
+}
+
+
+// work page
+
+.work-details {
+    float: left;
+    justify-content: center;
+    align-items: center;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 50px;
+    font-size:15px;
+}
+
+.work-details  p {
+  font-size:10px;
+}
+
+//Contact page
+
+.con-mail {
+    padding-bottom: 20px;
+}
+.con-mail h1{
+    padding-bottom: 20px;
+}
+
+
+.con-social p {
+    padding-top: 10px;
+
+}
+
+// .main:hover + .shadow.one {
+//     transform: perspective(1300px) rotateY(20deg) translateZ(230px) scale(0.5);
+//   }
+
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body,
+button {
+  font-family: "Poppins", sans-serif;
+}
+
+
+.overlay {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+//   background-color: rgba(43, 51, 59, 0.8);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.inner {
+  max-width: 35rem;
+  text-align: center;
+  color: black;
+  padding: 0 2rem;
+}
+
+.title {
+  font-size: 10rem;
+  font-family: "ovo";
+}
+
+.btn {
+  margin-top: 1rem;
+  padding: 0.6rem 1.8rem;
+  background-color: #1179e7;
+  border: none;
+  border-radius: 25px;
+  color: #fff;
+  text-transform: uppercase;
+  cursor: pointer;
+  text-decoration: none;
+}
+
