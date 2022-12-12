@@ -99,6 +99,13 @@
 .about-p {
   padding-top: 50px;
   text-align: left;
+  font-style: "sans-serif";
+  font-size: 1rem;
+}
+
+.about-info p {
+  font-style: "sans-serif";
+  font-size: 1.2rem;
 }
 
 
@@ -112,6 +119,10 @@
     padding-right: 50px;
     padding-top: 50px;
     font-size:15px;
+    overflow-y: scroll;
+    height: 60vh;       
+    
+
 }
 
 .work-details  p {
@@ -172,9 +183,32 @@ button {
 }
 
 .title {
-  font-size: 10rem;
+  font-size: 6rem;
   font-family: "ovo";
+  color: #000066;
 }
+
+.name-font {
+  font-size: 2rem;
+  font-style: "sans-serif";
+  font-weight: lighter;
+  color: black;
+}
+
+.profile-font {
+  font-size: 1.5rem;
+  font-style: "sans-serif";
+  font-weight: lighter;
+  color: black;
+}
+
+.company-font {
+  font-size: 1.5rem;
+  font-style: "sans-serif";
+  font-weight: lighter;
+  color: black;
+}
+
 
 .btn {
   margin-top: 1rem;

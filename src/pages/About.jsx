@@ -17,22 +17,23 @@ const About = () => {
                 <div className="about-info">
                   <p>
                     <span className="title-s">Name: </span>{" "}
-                    <span>Kirtiranjan Maharana</span>
+                    <span>Abhay Chandra</span>
                   </p>
                   <p>
                     <span className="title-s">Profile: </span>{" "}
-                    <span>Web developer</span>
+                    <span>Software Engineer</span>
                   </p>
                   <p>
                     <span className="title-s">Email: </span>{" "}
-                    <span>maharanakirtiranjan2020@gmail.com</span>
+                    <span>a4abhaychandra@gmail.com</span>
                   </p>
                 </div>
               </div>
               <p className="about-p">
-                I am a highly self-motivated Web Developer(Frontend Developer)
-                who spends most of his time building applications, teaching
-                others and keeping myself up-to-date with the latest
+                I am seeking a challenging position in a reputed organization where I can learn new skills, expand my knowledge, and leverage my learnings as a developer. <br />
+                Proficient in React JS. <br />
+                I am a highly self-motivated web developer
+                who spends most of his time building applications, learning new things and keeping myself up-to-date with the latest
                 technologies.
               </p>
 

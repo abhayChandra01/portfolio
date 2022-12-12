@@ -1,6 +1,6 @@
 import React from 'react'
 import "./header.scss"
-import logo from "../../images/K-logo.ico";
+import logo from "../../images/A-logo.ico";
 
 
 const Header = ({ active, setActive }) => {

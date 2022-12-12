@@ -4,43 +4,26 @@ import "../pages/pages.scss";
 const Home = () => {
   return (
     <>
-      {/* <div>
-        <div className="home-head">
-          <h1>Hello</h1>
-        </div>
-        <div className="about-content">
-          <p>
-          I’m Kirtiranjan Maharana, I am a Web Developer (Frontend developer)
-          based in Bangalore.
-          </p>
-        </div>
-      </div> */}
-
-{/* <div className="navbar">
-        <div className="menu">
-          <h3 className="logo">Mayank<span>Rana</span></h3>
-          <div className="hamburger-menu">
-            <div className="bar"></div>
-          </div>
-        </div>
-      </div> */}
-
-      {/* <div className="main-container">
-        <div className="main"> */}
+     
           <header>
             <div className="overlay">
               <div className="inner">
                 <h2 className="title">Hello</h2>
                 <p>
-                I’m Kirtiranjan Maharana, I am a Web Developer (Frontend developer) based in Bangalore.
+                I am
+                <h4 className="name-font">
+                  Abhay Chandra.
+                </h4> 
+                I am a
+                <h4 className="profile-font"> Software Engineer</h4>
+                at 
+                <span className="company-font"><a href="https://www.xelpmoc.in" target="_blank" style={{textDecoration:'none'}}> Xelpmoc Design And Tech Ltd.</a></span>
+                
                 </p>
-                <button className="btn" onClick={()=>window.open("https://github.com/KirtiranjanMaharana", "_blank")}>Projects</button>
+                <button className="btn" onClick={()=>window.open("https://github.com/abhayChandra01", "_blank")}>Projects</button>
               </div>
             </div>
           </header>
-        {/* </div>
-        </div> */}
-
 
 
     </>
