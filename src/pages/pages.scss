@@ -1,20 +1,21 @@
 //Home Page
 .home-head {
-    position: relative;
-    float: left;
-    padding-left: 50px;
-    font-size: 20px;
+  position: relative;
+  float: left;
+  padding-left: 50px;
+  font-size: 20px;
 }
 
 .home-head::before {
-    content: '';
-    margin-left: 50px;
-    position: absolute;
-    bottom: 0; left: 0;
-    width: 60px;
-    height: 3px;
-    background-color: green;
-  }
+  content: '';
+  margin-left: 50px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 60px;
+  height: 3px;
+  background-color: green;
+}
 
 // About Page
 
@@ -24,7 +25,7 @@
   height: 100%;
   top: 0;
   left: 0;
-//   background-color: rgba(43, 51, 59, 0.8);
+  //   background-color: rgba(43, 51, 59, 0.8);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -38,64 +39,67 @@
 }
 
 .about-head {
-    position: relative;
-    float: left;
-    padding-left: 50px;
-    font-size: 20px;
-    padding-bottom: 5px;
-    padding-top: 10px;
+  position: relative;
+  float: left;
+  padding-left: 50px;
+  font-size: 20px;
+  padding-bottom: 5px;
+  padding-top: 10px;
 }
 
 .about-head::before {
   content: '';
   margin-left: 50px;
   position: absolute;
-  bottom: 0; left: 0;
+  bottom: 0;
+  left: 0;
   width: 60px;
   height: 3px;
   background-color: green;
-  
+
 }
 
 
 
-.about-info p{
+.about-info p {
   text-align: left;
 }
 
 .about-content {
-    padding-top: 30px;
-    padding-bottom: 30px;
-    float: left;
-    justify-content: center;
-    align-items: center;
-    padding-left: 50px;
-    padding-right: 50px;
-    font-size: 15px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  float: left;
+  justify-content: center;
+  align-items: center;
+  padding-left: 50px;
+  padding-right: 50px;
+  font-size: 15px;
 }
 
 .about-content ol {
-    font-size: 14px;
-    padding-left: 50px;
-    padding-top: 10px;
-    justify-content: center;
-    align-items: center;
+  font-size: 14px;
+  padding-left: 50px;
+  padding-top: 10px;
+  justify-content: center;
+  align-items: center;
 }
 
 .about-tech {
-    font-size: 15px;
-    padding-top: 25px;
+  font-size: 15px;
+  padding-top: 25px;
 }
 
-.about-bool{
+.about-bool {
   padding-top: 25px;
   justify-content: center;
   align-items: center;
 }
-.card{
+
+.card {
   width: 50%;
   height: 50%;
 }
+
 .about-p {
   padding-top: 50px;
   text-align: left;
@@ -112,35 +116,36 @@
 // work page
 
 .work-details {
-    float: left;
-    justify-content: center;
-    align-items: center;
-    padding-left: 50px;
-    padding-right: 50px;
-    padding-top: 50px;
-    font-size:15px;
-    overflow-y: scroll;
-    height: 60vh;       
-    
+  float: left;
+  justify-content: center;
+  align-items: center;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-top: 50px;
+  font-size: 15px;
+  overflow-y: scroll;
+  height: 60vh;
+
 
 }
 
-.work-details  p {
-  font-size:10px;
+.work-details p {
+  font-size: 10px;
 }
 
 //Contact page
 
 .con-mail {
-    padding-bottom: 20px;
+  padding-bottom: 20px;
 }
-.con-mail h1{
-    padding-bottom: 20px;
+
+.con-mail h1 {
+  padding-bottom: 20px;
 }
 
 
 .con-social p {
-    padding-top: 10px;
+  padding-top: 10px;
 
 }
 
@@ -169,7 +174,7 @@ button {
   height: 100%;
   top: 0;
   left: 0;
-//   background-color: rgba(43, 51, 59, 0.8);
+  //   background-color: rgba(43, 51, 59, 0.8);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -221,4 +226,3 @@ button {
   cursor: pointer;
   text-decoration: none;
 }
-
