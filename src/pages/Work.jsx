@@ -49,7 +49,7 @@ const Work = () => {
                 <ul>
                   <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-dot" viewBox="0 0 16 16"> <path d="M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3z" /> </svg>
 
-                  Worked on an US-based industry-level project built in React.js and also used Redux.js toolkit.</ul>
+                  Worked on an US-based industry-level project built in React.js and also used Redux.js toolkit. Also, developed features from the scratch, unit tested & delivered within the deadline.</ul>
               </p>
             </VerticalTimelineElement>
 
@@ -66,7 +66,7 @@ const Work = () => {
                 <ul>
                   <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-dot" viewBox="0 0 16 16"> <path d="M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3z" /> </svg>
 
-                  Made a MERN Stack Project for a MLM-based client Service Point India (SPI), with an E-Commerce layout, also lead the team of 2 members & have hands on experience on React.js & Node.js.</ul>
+                  Built a MERN Stack Project from scratch for a MLM-based client Service Point India (SPI), with an E-Commerce layout, also lead the team of 2 members & have hands on experience on React.js & Node.js.</ul>
               </p>
             </VerticalTimelineElement>
 
@@ -83,7 +83,7 @@ const Work = () => {
                 <ul>
                   <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-dot" viewBox="0 0 16 16"> <path d="M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3z" /> </svg>
 
-                  Made Student Marksheet Management System & Product Management System using Node.js.</ul>
+                  Built Student Marksheet Management System & Product Management System using Node.js.</ul>
               </p>
             </VerticalTimelineElement>
 
