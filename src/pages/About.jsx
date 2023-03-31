@@ -30,11 +30,10 @@ const About = () => {
                 </div>
               </div>
               <p className="about-p">
-                I am seeking a challenging position in a reputed organization where I can learn new skills, expand my knowledge, and leverage my learnings as a developer. <br />
+                I belong to Shahjahanpur, Uttar Pradesh. I did my schooling from CBSE Board & currently, I am persuing Bachelor Of Technology from ITM Gwalior in the field of Information Technology. <br />
+                I am a passionate developer seeking a challenging position in a renowned organization that values learning, growth, and innovation, so that I can expand my skillset. <br />
                 Proficient in React JS. <br />
-                I am a highly self-motivated web developer
-                who spends most of his time building applications, learning new things and keeping myself up-to-date with the latest
-                technologies.
+                As a highly self-motivated web developer, I thrive on building web applications and continuously expanding my skills with the latest technologies to create meaningful and innovative solutions.
               </p>
 
               {/* <div >
